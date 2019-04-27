@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tag above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>Veterinary Ophthalmology Surgery Meeting</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <!--<meta name="viewport" content="width=device-width" />-->
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' /> 
+    <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/gsdk.css" rel="stylesheet" />
+    <!--<link href="assets/css/vos.css" rel="stylesheet" />-->
+
+    <!--     Font Awesome     -->
+    <link href="bootstrap3/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+
+    <!-- Firebase -->
+    <!--<script src="https://www.gstatic.com/firebasejs/3.3.0/firebase.js"></script>-->
+  </head>
+<body>
+    <div class="banner">
+        <div class='header-container'>
+                    <div class="logo"><img src="assets/img/VOSlogo.png" alt="VOS Rocks!"></div>
+                    <div class="header-text">
+                        <ul>
+                            <li>August 3-5, 2018</li>
+                            <li>Chicago, IL</li>
+                            <li>Hyatt Regency O'Hare</li>
+                        </ul>
+                    </div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">The Conference</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>We are excited to announce the <b>2nd</b> Veterinary Ophthalmic Surgery Meeting. This long awaited event
+                            will be an innovative meeting, with a dynamic format developed to encourage a candid debate among
+                            Veterinary Ophthalmologists with interests in Surgery. </p>
+                        <p>This is a limited-space event that will take place on Aug 3-5th, 2018 in Chicago, IL.</p>
+                        <p>Come be part of an interactive gathering that will challenge and inspire young professionals and
+                            engage the most renowned clinicians with compelling case discussions, pertinent peals, updates
+                            from human meetings, and also a Keynote Lecture!</p>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="assets/img/keratoplasty.png" class="img-rounded" alt="Keratoplasty">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section">
+            <div class="container">
+                <h2 class="section-title">Location</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="assets/img/hotel.jpg" class="img-rounded" alt="Regency OHare'">
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="info"><a href="https://ohare.regency.hyatt.com/en/hotel/home.html">Chicago Regency O'Hare</a></h4>
+                        <p>9300 Bryn Mawr Avenue<br> Rosemont, Illinois 60018<br>
+                            <small>(5 minutes from the airport)</small>
+                        </p>
+                        <!--<p>To reserve a room in the conference hotel, <a href="https://aws.passkey.com/e/16308111">click here</a>.</p>-->
+                        <p>Please register and a link to reserve a room will be provided.</p>
+                        <hr>
+                        <h5>Alternative nearby hotels: <small>(literally just down the block)</small></h5>
+                        <p><a href="http://www3.hilton.com/en/hotels/illinois/hilton-rosemont-chicago-ohare-ORDHRHH/index.html">Hilton Rosemont</a></p>
+                        <p><a href="http://embassysuites3.hilton.com/en/hotels/illinois/embassy-suites-by-hilton-chicago-ohare-rosemont-CHIRMES/index.html">Embassy Suites</a></p>
+                        <p><a href="http://doubletree3.hilton.com/en/hotels/illinois/doubletree-by-hilton-hotel-chicago-ohare-airport-rosemont-CHIDTDT/index.html">Double Tree</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section" id="register">
+            <div class="container">
+                <h2 class="section-title">Register Here</h2>
+                <div id="registerApp"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="section">
+        <div class="container">
+            <h2 class="section-title">Sponsors</h2>
+            <div class="row">
+              <div class="col-md-4">
+                <h2>Prime Sponsors</h2>
+              </div> 
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <img src="assets/img/sponsors/prime/AcrivetBL.png" class="prime-sponsor img-rounded center-block" alt="Acrivet">
+                    </div>
+                      <div class="col-md-6">
+                        <img src="assets/img/sponsors/prime/vca.png" class="prime-sponsor img-rounded center-block vca" alt="VCA">
+                      </div>
+                </div>
+            </div><hr>
+            <div class="row">
+              <div class="col-md-4">
+                <h3>Gold Sponsors</h3>
+              </div> 
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <img src="assets/img/sponsors/gold/I-Med.jpg" class="gold-sponsor img-rounded center-block" alt="I-Med">
+                    </div>
+                      <div class="col-md-6">
+                        <img src="assets/img/sponsors/gold/additiontech.png" class="gold-sponsor img-rounded center-block" alt="Addition Tech">
+                      </div>
+                </div>
+            </div><hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info">
+                        <div class="description">
+                            <h4>Silver</h4>
+                            <img src="assets/img/sponsors/silver/An-vision.png" class="silver-sponsor img-rounded center-block" alt="An-Vision">
+                        </div>
+                    </div>
+                </div>
+            </div><hr>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info">
+                        <div class="description">
+                            <h5>Bronze</h5>
+                            <img src="assets/img/sponsors/bronze/IRIDEX.png" class="bronze-sponsor img-rounded center-block" alt="Iridex">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><hr>
+            <div class="row">
+              <div class="col-md-4">
+                <h5>General Support</h5>
+              </div> 
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <img src="assets/img/sponsors/generalsupport/Avalon.png" class="general-sponsor img-rounded center-block" alt="Avalon">
+                    </div>
+                      <div class="col-md-6">
+                        <img src="assets/img/sponsors/generalsupport/EyeCareforAnimals.png" class="general-sponsor img-rounded center-block" alt="ECFA">
+                      </div>
+                </div>
+            </div>            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <img src="assets/img/sponsors/generalsupport/MST.png" class="general-sponsor mst img-rounded center-block" alt="MST">
+                    </div>
+                      <div class="col-md-6">
+                        <img src="assets/img/sponsors/generalsupport/spotonspecialties.png" class="general-sponsor img-rounded center-block" alt="Spot-on Specialties">
+                      </div>
+                </div>
+            </div>            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <img src="assets/img/sponsors/generalsupport/wedgewood.jpg" class="general-sponsor img-rounded center-block" alt="Wedgewood">
+                    </div>
+                      <div class="col-md-6">
+                        <img src="assets/img/sponsors/generalsupport/medsforvets.png" class="general-sponsor img-rounded center-block medsforvets" alt="Meds for Vets">
+                      </div>
+                </div>
+            </div>            
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <img src="assets/img/sponsors/generalsupport/epsilon.jpg" class="general-sponsor img-rounded center-block epsilon" alt="Epsilon">
+                    </div>
+                </div>
+            </div>            
+            <br><hr>
+            <div class="row">
+              <div class="col-md-4">
+                <h5>Resident Sponsorship</h5>
+              </div> 
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-6">
+                        <img src="assets/img/sponsors/residents/CareCredit.jpg" class="general-sponsor img-rounded center-block carecredit" alt="Care Credit">
+                    </div>
+                      <div class="col-md-6">
+                        <img src="assets/img/sponsors/residents/I-Med.jpg" class="general-sponsor img-rounded center-block" alt="I-Med (again)">
+                      </div>
+                </div>
+            </div>  
+        </div>
+    </div> -->
+</body>
+<script src="jquery/jquery-1.10.2.js" type="text/javascript"></script>
+<script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+
+<script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
+<script src="assets/js/gsdk-checkbox.js"></script>
+<script src="assets/js/gsdk-radio.js"></script>
+<script src="assets/js/gsdk-bootstrapswitch.js"></script>
+<script src="assets/js/get-shit-done.js"></script>
+
+<script src="assets/js/custom.js"></script>
+</html>
